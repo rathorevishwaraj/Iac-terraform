@@ -27,7 +27,7 @@ resource "aws_network_interface" "mynic" {
 }
 
 resource "aws_instance" "myvm" {
-  ami           = "ami-0d03cb826412c6b0f" #
+  ami           = "ami-0a1235697f4afa8a4" #
   instance_type = "t3.micro"
 
   network_interface {
